@@ -7,7 +7,7 @@ Download the respository and run the main.go file
 ```shell
 go get github.com/ssurenr/bigip-l2
 cd $GOPATH/src/github.com/ssurenr/bigip-l2/
-go run cmd/bigip-l2/main.go
+go run main.go
 ```
 
 The program lists the parsed data from the arp.json file under the sample directory
