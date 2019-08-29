@@ -29,7 +29,7 @@ func main() {
 func readFile(path string) []byte {
 	file, err := os.Open(path)
 
-	if err!= nil{
+	if err != nil {
 		fmt.Println("Error Opening file", err)
 	}
 
